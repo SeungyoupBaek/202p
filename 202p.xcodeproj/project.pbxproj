@@ -21,6 +21,13 @@
 		00FE4E9F187CFA00002AB668 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FE4E81187CFA00002AB668 /* UIKit.framework */; };
 		00FE4EA7187CFA00002AB668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00FE4EA5187CFA00002AB668 /* InfoPlist.strings */; };
 		00FE4EA9187CFA00002AB668 /* _02pTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FE4EA8187CFA00002AB668 /* _02pTests.m */; };
+		00FE4EB4187CFA22002AB668 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FE4EB3187CFA22002AB668 /* ProductCell.m */; };
+		00FE4EB7187CFA36002AB668 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FE4EB6187CFA36002AB668 /* Product.m */; };
+		00FE4EBD187CFBA8002AB668 /* Baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FE4EB8187CFBA8002AB668 /* Baseball.png */; };
+		00FE4EBE187CFBA8002AB668 /* Basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FE4EB9187CFBA8002AB668 /* Basketball.png */; };
+		00FE4EBF187CFBA8002AB668 /* Football.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FE4EBA187CFBA8002AB668 /* Football.png */; };
+		00FE4EC0187CFBA8002AB668 /* Rugby.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FE4EBB187CFBA8002AB668 /* Rugby.png */; };
+		00FE4EC1187CFBA8002AB668 /* Volleyball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FE4EBC187CFBA8002AB668 /* Volleyball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,16 @@
 		00FE4EA4187CFA00002AB668 /* 202pTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "202pTests-Info.plist"; sourceTree = "<group>"; };
 		00FE4EA6187CFA00002AB668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00FE4EA8187CFA00002AB668 /* _02pTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _02pTests.m; sourceTree = "<group>"; };
+		00FE4EB2187CFA22002AB668 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		00FE4EB3187CFA22002AB668 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		00FE4EB5187CFA36002AB668 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		00FE4EB6187CFA36002AB668 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		00FE4EB8187CFBA8002AB668 /* Baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Baseball.png; sourceTree = "<group>"; };
+		00FE4EB9187CFBA8002AB668 /* Basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Basketball.png; sourceTree = "<group>"; };
+		00FE4EBA187CFBA8002AB668 /* Football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Football.png; sourceTree = "<group>"; };
+		00FE4EBB187CFBA8002AB668 /* Rugby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rugby.png; sourceTree = "<group>"; };
+		00FE4EBC187CFBA8002AB668 /* Volleyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Volleyball.png; sourceTree = "<group>"; };
+		00FE4EC2187CFC65002AB668 /* CartDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,10 +143,20 @@
 		00FE4E84187CFA00002AB668 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00FE4EB8187CFBA8002AB668 /* Baseball.png */,
+				00FE4EB9187CFBA8002AB668 /* Basketball.png */,
+				00FE4EBA187CFBA8002AB668 /* Football.png */,
+				00FE4EBB187CFBA8002AB668 /* Rugby.png */,
+				00FE4EBC187CFBA8002AB668 /* Volleyball.png */,
 				00FE4E85187CFA00002AB668 /* 202p-Info.plist */,
 				00FE4E86187CFA00002AB668 /* InfoPlist.strings */,
 				00FE4E89187CFA00002AB668 /* main.m */,
 				00FE4E8B187CFA00002AB668 /* 202p-Prefix.pch */,
+				00FE4EB2187CFA22002AB668 /* ProductCell.h */,
+				00FE4EB3187CFA22002AB668 /* ProductCell.m */,
+				00FE4EB5187CFA36002AB668 /* Product.h */,
+				00FE4EB6187CFA36002AB668 /* Product.m */,
+				00FE4EC2187CFC65002AB668 /* CartDelegate.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,8 +256,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				00FE4E96187CFA00002AB668 /* Images.xcassets in Resources */,
+				00FE4EC0187CFBA8002AB668 /* Rugby.png in Resources */,
+				00FE4EBD187CFBA8002AB668 /* Baseball.png in Resources */,
+				00FE4EBF187CFBA8002AB668 /* Football.png in Resources */,
 				00FE4E88187CFA00002AB668 /* InfoPlist.strings in Resources */,
 				00FE4E91187CFA00002AB668 /* Main.storyboard in Resources */,
+				00FE4EBE187CFBA8002AB668 /* Basketball.png in Resources */,
+				00FE4EC1187CFBA8002AB668 /* Volleyball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00FE4E94187CFA00002AB668 /* ViewController.m in Sources */,
+				00FE4EB7187CFA36002AB668 /* Product.m in Sources */,
+				00FE4EB4187CFA22002AB668 /* ProductCell.m in Sources */,
 				00FE4E8E187CFA00002AB668 /* AppDelegate.m in Sources */,
 				00FE4E8A187CFA00002AB668 /* main.m in Sources */,
 			);
