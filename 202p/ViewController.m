@@ -75,7 +75,7 @@
     data = @[[Product product:@"BaseBall" price:@"100" image:@"Baseball.png"],
              [Product product:@"BasketBall" price:@"200" image:@"Basketball.png"],
              [Product product:@"FootBall" price:@"250" image:@"Football.png"],
-             [Product product:@"RugbyBall" price:@"300" image:@"Rugbyball.png"],
+             [Product product:@"RugbyBall" price:@"300" image:@"Rugby.png"],
              [Product product:@"VolleyBall" price:@"999" image:@"Volleyball.png"]];
     
     cart = [[NSMutableArray alloc]init];
